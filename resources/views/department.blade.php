@@ -6,11 +6,11 @@
     <img src="/images/bannerbaru.png" alt="Banner SMK" class="w-full rounded-lg shadow-lg h-auto object-cover">
 </section>
 
-<section class="bg-gradient-to-br from-amber-50 to-orange-50 py-12" x-data="{ open: null }">
+<section class="bg-gradient-to-br from-amber-50 to-orange-50 py-12 reveal opacity-0 translate-y-8 transition-all duration-700" x-data="{ open: null }">
     <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-10 uppercase px-4">Program Studi di SMK LETRIS 2 INDONESIA</h2>
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl transition" @click="open = 'tjkt'">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 reveal opacity-0 translate-y-8 transition-all duration-700">
+            <div class="bg-[#f6ecd0]  p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl transition " @click="open = 'tjkt'">
                 <img src="/images/tkj.jpg" alt="PPLG" class="w-full h-40 sm:h-48 object-cover rounded mb-4">
                 <h3 class="text-lg sm:text-xl font-semibold mb-2">Teknik Jaringan Komputer & Telekomunikasi</h3>
                 <p class="text-gray-700 text-sm">Mempelajari cara merakit, menginstal, dan mengelola komputer serta membangun dan...</p>
@@ -29,19 +29,19 @@
                 <p class="text-gray-700 text-sm">Jurusan Akuntansi membekali siswa dengan pengetahuan dan keterampilan di bidang...</p>
             </div>
             
-            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl transition" @click="open = 'mplb'">
+            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl reveal opacity-0 translate-y-8 transition-all duration-700" @click="open = 'mplb'">
                 <img src="/images/perkantoran.jpg" alt="PPLG" class="w-full h-40 sm:h-48 object-cover rounded mb-4">
                 <h3 class="text-lg sm:text-xl font-semibold mb-2">Manajemen Perkantoran & Layanan Bisnis</h3>
                 <p class="text-gray-700 text-sm">Jurusan ini fokus pada kemampuan administrasi perkantoran modern dengan dukungan...</p>
             </div>
 
-            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl transition" @click="open = 'bdp'">
+            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl reveal opacity-0 translate-y-8 transition-all duration-700" @click="open = 'bdp'">
                 <img src="/images/bisnis.jpg" alt="PPLG" class="w-full h-40 sm:h-48 object-cover rounded mb-4">
                 <h3 class="text-lg sm:text-xl font-semibold mb-2">Bisnis Daring Pemasaran</h3>
                 <p class="text-gray-700 text-sm">Jurusan ini mengajarkan cara menjalankan bisnis secara digital maupun konvensional...</p>
             </div>
 
-            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl transition" @click="open = 'dkv'">
+            <div class="bg-[#f6ecd0] p-4 sm:p-6 rounded-lg shadow-md cursor-pointer hover:shadow-xl reveal opacity-0 translate-y-8 transition-all duration-700" @click="open = 'dkv'">
                 <img src="/images/multimedia.jpg" alt="PPLG" class="w-full h-40 sm:h-48 object-cover rounded mb-4">
                 <h3 class="text-lg sm:text-xl font-semibold mb-2">Desain Komunikasi Visual</h3>
                 <p class="text-gray-700 text-sm">Jurusan ini membekali siswa dengan keterampilan dalam bidang desain grafis, anim...</p>
@@ -135,7 +135,7 @@
 
 <!-- Konsultasi Jurusan -->
 <section class="bg-amber-50 text-center py-12" x-data="{ showForm: false }">
-    <button @click="showForm = true" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition">
+    <button @click="showForm = true" class="bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg reveal opacity-0 translate-y-8 transition-all duration-700">
         Konsultasi Jurusan
     </button>
 

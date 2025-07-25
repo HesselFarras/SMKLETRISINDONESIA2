@@ -4,7 +4,7 @@
 <!-- Hero Section -->
 <section class="relative">
     <img src="/images/hero.png" alt="Gedung SMK" class="w-full h-[500px] object-cover">
-    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white text-center">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white text-center reveal opacity-0 translate-y-8 transition-all duration-700">
         <img src="/images/logoletris.png" class="w-32 mb-4" alt="Logo">
         <h1 class="text-4xl font-bold">SMK LETRIS INDONESIA 2</h1>
         <a href="/tentang.html" class="mt-4 px-6 py-2 bg-transparent text-white rounded hover:bg-slate-400">Learn More</a>
@@ -37,7 +37,7 @@
     <div class="container mx-auto px-4 text-center reveal opacity-0 translate-y-8 transition-all duration-700">
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div class="bg-[#f6ecd0] rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
-                <div class="text-5xl font-extrabold text-blue-600 mb-2">700+</div>
+                <div class="text-5xl font-extrabold text-blue-600 mb-2">2000+</div>
                 <p class="text-gray-700 font-semibold">Jumlah Siswa</p>
             </div>
             <div class="bg-[#f6ecd0] rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">

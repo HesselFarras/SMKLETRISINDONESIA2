@@ -15,13 +15,13 @@
     <!-- Tentang Sekolah -->
     <section class="py-16 bg-gradient-to-br from-amber-50 to-orange-50 reveal opacity-0 translate-y-8 transition-all duration-800">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
+            <div class="text-center mb-12 reveal opacity-0 translate-y-8 transition-all duration-700">
                 <p class="mt-2 text-lg text-gray-700 max-w-3xl mx-auto">
                     SMK Letris 2 adalah pilihan cerdas untuk masa depan gemilang. Kami hadir dengan 7 jurusan unggulan dan segudang prestasi.
                 </p>
             </div>
             
-            <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div class="grid md:grid-cols-2 gap-10 items-center reveal opacity-0 translate-y-8 transition-all duration-700">
                 <div class="space-y-5 text-gray-800 text-lg leading-relaxed">
                     <p>Sejak berdiri pada tahun <strong>2013</strong>, SMK Letris Indonesia 2 telah menjadi rumah bagi ribuan siswa untuk belajar di bidang
                     <strong>Multimedia, Teknik Komputer Jaringan, Rekayasa Perangkat Lunak, Akuntansi, Otomatisasi Tata Kelola Perkantoran, Bisnis Daring Pemasaran</strong>, dan <strong>Perbankan Syariah</strong>.
@@ -30,7 +30,7 @@
                 <p class="italic text-blue-700 font-medium">"Letris bukan hanya sekolah — tapi tempat membangun karakter, kreativitas, dan masa depan."</p>
             </div>
             
-            <div class="relative">
+            <div class="relative reveal opacity-0 translate-y-8 transition-all duration-700">
                 <img src="/images/fotoletris.jpg" alt="Gedung SMK Letris" class="rounded-xl shadow-lg w-full object-cover h-80">
                 <span class="absolute top-2 left-2 bg-yellow-400 text-white text-sm px-3 py-1 rounded-full shadow">Akreditasi A</span>
             </div>
@@ -40,9 +40,9 @@
 
 <!-- Fasilitas -->
 <section class="py-12 bg-gradient-to-br from-orange-50 to-amber-50">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 reveal opacity-0 translate-y-8 transition-all duration-700">
         <h2 class="text-2xl font-bold mb-8 text-center">Fasilitas</h2>
-        <div class="grid md:grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-3 gap-6 reveal opacity-0 translate-y-8 transition-all duration-700">
             <!-- Contoh statis -->
             <div class="bg-[#f6ecd0] rounded shadow p-4 fasilitas-item flex flex-col items-center">
                 <img src="/images/uks.jpg" alt="Unit Kesehatan Sekolah" class="w-full h-40 object-cover rounded mb-3">
@@ -95,7 +95,7 @@
 
 <!-- Guru & Staff -->
 <section class="py-12 bg-gradient-to-br from-amber-50 to-orange-50">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 reveal opacity-0 translate-y-8 transition-all duration-700">
         <h2 class="text-2xl font-bold mb-6 text-center">Guru & Staff Sekolah</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" id="guruGrid">
             <!-- Contoh guru -->
@@ -153,7 +153,7 @@
 
 <!-- Lokasi -->
 <section class="bg-gradient-to-br from-orange-50 to-amber-50 py-12">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 reveal opacity-0 translate-y-8 transition-all duration-700">
         <h2 class="text-2xl md:text-3xl font-bold mb-10 uppercase text-center">Lokasi SMK LETRIS 2 INDONESIA</h2>
         <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-orange-50 p-6 text-lg">
