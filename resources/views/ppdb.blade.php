@@ -10,7 +10,7 @@
         <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white text-center">
             <h1 class="text-4xl font-bold">PPDB GELOMBANG 2</h1>
             <div class="text-center my-8">
-                <a href="/registration.html" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-gray-700">Pendaftaran</a>
+                <a href="{{ route('registration') }}" class="bg-blue-700 text-white px-6 py-2 rounded hover:bg-gray-700">Pendaftaran</a>
             </div>
         </div>
     </section>
@@ -150,35 +150,32 @@
     </section>
 
     <!-- News & Updates -->
-    <section id="berita" class="py-12 mx-auto">
-        <div class="container mx-auto px-4 reveal opacity-0 translate-y-8 transition-all duration-700">
-            <h2 class="text-2xl font-bold mb-6">News & Updates</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-                <div class="bg-[#f6ecd0] shadow rounded p-4">
-                    <img src="/images/berita1.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Lomba Hari Guru">
-                    <h3 class="font-semibold text-lg">SMK Letris Juara Lomba Hari Guru</h3>
-                    <p class="text-sm text-gray-600">20 Juli 2025</p>
-                    <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
-                </div>
-
-                <div class="bg-[#f6ecd0] shadow rounded p-4">
-                    <img src="/images/berita2.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Sosialisasi PPDB">
-                    <h3 class="font-semibold text-lg">Sosialisasi PPDB di Kecamatan Ciledug</h3>
-                    <p class="text-sm text-gray-600">18 Juli 2025</p>
-                    <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
-                </div>
-
-                <div class="bg-[#f6ecd0] shadow rounded p-4">
-                    <img src="/images/berita3.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Pengenalan Jurusan">
-                    <h3 class="font-semibold text-lg">Pengenalan Jurusan untuk Calon Siswa</h3>
-                    <p class="text-sm text-gray-600">15 Juli 2025</p>
-                    <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
-                </div>
-
+    <section id="berita" class="py-12 mx-auto bg-gradient-to-br from-orange-50 to-amber-50">
+    <div class="container mx-auto px-4 reveal opacity-0 translate-y-8 transition-all duration-700">
+        <h2 class="text-2xl font-bold mb-6">News & Updates</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Contoh berita -->
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <img src="/images/kingramdan.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Judul Berita 1">
+                <h3 class="font-semibold text-lg">Siswa SMK LETRIS INDONESIA 2 Menjadi juara LKS Tingkat Provinsi</h3>
+                <p class="text-sm text-gray-600">23 July 2025</p>
+                <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+            </div>
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <img src="/images/beritasnbt.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Judul Berita 2">
+                <h3 class="font-semibold text-lg">Selamat untuk siswa SMK LETRIS INDONESIA 2 yang berhasil Lulus UTBK - SNBT 2025</h3>
+                <p class="text-sm text-gray-600">21 July 2025</p>
+                <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+            </div>
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <img src="/images/beritafutsal.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Judul Berita 3">
+                <h3 class="font-semibold text-lg">SMK LETRIS INDONESIA 2 Menjadi Juara 2 Futsal</h3>
+                <p class="text-sm text-gray-600">18 July 2025</p>
+                <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 </body>
 @endsection
 
