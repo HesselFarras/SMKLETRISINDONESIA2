@@ -26,13 +26,13 @@
                     <tr>
                         <th class="border px-2 py-1">No</th>
                         <th class="border px-2 py-1">Komponen</th>
-                        <th class="border px-2 py-1">AP</th>
-                        <th class="border px-2 py-1">AP Bilingual</th>
-                        <th class="border px-2 py-1">MM</th>
-                        <th class="border px-2 py-1">MM Bilingual</th>
+                        <th class="border px-2 py-1">DKV</th>
+                        <th class="border px-2 py-1">DKV Bilingual</th>
+                        <th class="border px-2 py-1">AKL</th>
+                        <th class="border px-2 py-1">MPLB</th>
+                        <th class="border px-2 py-1">BDP</th>
+                        <th class="border px-2 py-1">PPLG</th>
                         <th class="border px-2 py-1">TJKT</th>
-                        <th class="border px-2 py-1">RPL</th>
-                        <th class="border px-2 py-1">OSP</th>
                     </tr>
                 </thead>
                 <tbody class="bg-orange-50">
@@ -123,28 +123,53 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
             <div class="bg-[#f6ecd0] shadow rounded p-4">
-                <div class="h-40 mb-4">
-                    <img src="/images/dokumentasi1.jpg" alt="Upacara Bendera" class="w-full h-full object-cover rounded">
+                <div>
+                    <img src="/images/dokumen1.jpg" alt="" class="w-full h-full object-cover rounded">
                 </div>
-                <h3 class="font-semibold">Upacara Bendera</h3>
-                <p class="text-sm text-gray-600">Dokumentasi upacara hari Senin di SMK Letris</p>
             </div>
 
             <div class="bg-[#f6ecd0] shadow rounded p-4">
-                <div class="h-40 mb-4">
-                    <img src="/images/dokumentasi2.jpg" alt="Kegiatan Praktek" class="w-full h-full object-cover rounded">
+                <div>
+                    <img src="/images/dokumen2.jpg" alt="" class="w-full h-full object-cover rounded">
                 </div>
-                <h3 class="font-semibold">Kegiatan Praktek</h3>
-                <p class="text-sm text-gray-600">Siswa melakukan praktek di laboratorium komputer</p>
             </div>
 
             <div class="bg-[#f6ecd0] shadow rounded p-4">
-                <div class="h-40 mb-4">
-                    <img src="/images/dokumentasi3.jpg" alt="Kegiatan Ekskul" class="w-full h-full object-cover rounded">
+                <div>
+                    <img src="/images/dokumen3.jpg" alt="" class="w-full h-full object-cover rounded">
                 </div>
-                <h3 class="font-semibold">Kegiatan Ekskul</h3>
-                <p class="text-sm text-gray-600">Ekskul futsal antar kelas di lapangan sekolah</p>
             </div>
+
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <div>
+                    <img src="/images/dokumen4.jpg" alt="" class="w-full h-full object-cover rounded">
+                </div>
+            </div>
+
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <div>
+                    <img src="/images/dokumen5.jpg" alt="" class="w-full h-full object-cover rounded">
+                </div>
+            </div>
+
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <div>
+                    <img src="/images/dokumen6.jpg" alt="" class="w-full h-full object-cover rounded">
+                </div>
+            </div>
+
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <div>
+                    <img src="/images/dokumen7.jpg" alt="" class="w-full h-full object-cover rounded">
+                </div>
+            </div>
+
+            <div class="bg-[#f6ecd0] shadow rounded p-4">
+                <div>
+                    <img src="/images/dokumen8.jpg" alt="" class="w-full h-full object-cover rounded">
+                </div>
+            </div>
+            
 
         </div>
     </section>
