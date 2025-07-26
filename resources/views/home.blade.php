@@ -17,17 +17,17 @@
         <div class="bg-[#f6ecd0] p-6 shadow rounded">
             <h2 class="text-xl font-semibold mb-2">About</h2>
             <p>SMK Letris Indonesia 2 adalah sekolah yang berkomitmen mencetak lulusan kompeten di bidangnya.</p>
-            <a href="/tentang.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+            <a href="{{ route('about') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
         </div>
         <div class="bg-[#f6ecd0] p-6 shadow rounded">
             <h2 class="text-xl font-semibold mb-2">Fasilitas</h2>
             <p>Fasilitas lengkap mulai dari ruang kelas modern, laboratorium, perpustakaan dan lainnya.</p>
-            <a href="/tentang.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+            <a href="{{ route('about') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
         </div>
         <div class="bg-[#f6ecd0] p-6 shadow rounded">
             <h2 class="text-xl font-semibold mb-2">Informasi & Berita</h2>
             <p>Ikuti berita dan update terbaru mengenai kegiatan SMK Letris Indonesia 2.</p>
-            <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+            <a href="{{ route('berita') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
         </div>
     </div>
 </section>
@@ -119,19 +119,19 @@
                 <img src="/images/kingramdan.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Judul Berita 1">
                 <h3 class="font-semibold text-lg">Siswa SMK LETRIS INDONESIA 2 Menjadi juara LKS Tingkat Provinsi</h3>
                 <p class="text-sm text-gray-600">23 July 2025</p>
-                <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+                <a href="{{ route('berita') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
             </div>
             <div class="bg-[#f6ecd0] shadow rounded p-4">
                 <img src="/images/beritasnbt.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Judul Berita 2">
                 <h3 class="font-semibold text-lg">Selamat untuk siswa SMK LETRIS INDONESIA 2 yang berhasil Lulus UTBK - SNBT 2025</h3>
                 <p class="text-sm text-gray-600">21 July 2025</p>
-                <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+                <a href="{{ route('berita') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
             </div>
             <div class="bg-[#f6ecd0] shadow rounded p-4">
                 <img src="/images/beritafutsal.jpg" class="mb-2 w-full h-40 object-cover rounded" alt="Judul Berita 3">
                 <h3 class="font-semibold text-lg">SMK LETRIS INDONESIA 2 Menjadi Juara 2 Futsal</h3>
                 <p class="text-sm text-gray-600">18 July 2025</p>
-                <a href="/berita.html" class="text-blue-500 mt-2 inline-block">Learn More</a>
+                <a href="{{ route('berita') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
             </div>
         </div>
     </div>
