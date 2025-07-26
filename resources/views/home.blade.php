@@ -7,7 +7,7 @@
     <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-white text-center reveal opacity-0 translate-y-8 transition-all duration-700">
         <img src="/images/logoletris.png" class="w-32 mb-4" alt="Logo">
         <h1 class="text-4xl font-bold">SMK LETRIS INDONESIA 2</h1>
-        <a href="/tentang.html" class="mt-4 px-6 py-2 bg-transparent text-white rounded hover:bg-slate-400">Learn More</a>
+        <a href="{{ route('about') }}" class="mt-4 px-6 py-2 bg-transparent text-white rounded hover:bg-slate-400">Learn More</a>
     </div>
 </section>
 
