@@ -14,17 +14,17 @@
 <!-- Info Boxes -->
 <section class="py-12 bg-gradient-to-br from-amber-50 to-orange-50">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4 reveal opacity-0 translate-y-8 transition-all duration-700">
-        <div class="bg-[#f6ecd0] p-6 shadow rounded">
+        <div class="bg-[#f6ecd0] rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
             <h2 class="text-xl font-semibold mb-2">About</h2>
             <p>SMK Letris Indonesia 2 adalah sekolah yang berkomitmen mencetak lulusan kompeten di bidangnya.</p>
             <a href="{{ route('about') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
         </div>
-        <div class="bg-[#f6ecd0] p-6 shadow rounded">
+        <div class="bg-[#f6ecd0] rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
             <h2 class="text-xl font-semibold mb-2">Fasilitas</h2>
             <p>Fasilitas lengkap mulai dari ruang kelas modern, laboratorium, perpustakaan dan lainnya.</p>
             <a href="{{ route('about') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
         </div>
-        <div class="bg-[#f6ecd0] p-6 shadow rounded">
+        <div class="bg-[#f6ecd0] rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300">
             <h2 class="text-xl font-semibold mb-2">Informasi & Berita</h2>
             <p>Ikuti berita dan update terbaru mengenai kegiatan SMK Letris Indonesia 2.</p>
             <a href="{{ route('berita') }}" class="text-blue-500 mt-2 inline-block">Learn More</a>
