@@ -1,7 +1,7 @@
 <header class="bg-slate-900 text-white sticky top-0 z-50">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center reveal opacity-0 translate-y-8 transition-all duration-700">
         <!-- Logo -->
-        <a href="/index.html" class="flex items-center space-x-2">
+        <a href="{{ route('home') }}" class="flex items-center space-x-2">
             <img src="/images/logoletris.png" alt="Logo" class="w-10 h-10">
             <span class="font-bold text-lg">SMK Letris Indonesia 2</span>
         </a>
